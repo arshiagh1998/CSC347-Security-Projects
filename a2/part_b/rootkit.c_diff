@@ -1,0 +1,18 @@
+98c98
+<   set_addr_rw((unsigned long) sys_call_table);
+---
+>   
+100d99
+<   set_addr_ro((unsigned long) sys_call_table);
+125c124
+<   set_addr_rw((unsigned long) sys_call_table);
+---
+> 
+127c126
+<   set_addr_ro((unsigned long) sys_call_table);
+---
+> 
+210c209
+<   hook_syscall(new_hook(__NR_open, (void*) &new_open));
+---
+>   // hook_syscall(new_hook(__NR_open, (void*) &new_open));

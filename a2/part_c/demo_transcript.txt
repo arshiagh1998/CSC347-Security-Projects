@@ -1,0 +1,28 @@
+Script started on Sat 26 Oct 2019 10:09:37 PM EDT
+]0;student@csc347-a2: ~/group_0191/a2/part_cstudent@csc347-a2:~/group_0191/a2/part_c$ make
+make -C /lib/modules/3.2.0-126-generic/build M=/home/student/group_0191/a2/part_c modules
+make[1]: Entering directory `/usr/src/linux-headers-3.2.0-126-generic'
+  CC [M]  /home/student/group_0191/a2/part_c/rootkit.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/student/group_0191/a2/part_c/rootkit.mod.o
+  LD [M]  /home/student/group_0191/a2/part_c/rootkit.ko
+make[1]: Leaving directory `/usr/src/linux-headers-3.2.0-126-generic'
+]0;student@csc347-a2: ~/group_0191/a2/part_cstudent@csc347-a2:~/group_0191/a2/part_c$ whoami
+student
+]0;student@csc347-a2: ~/group_0191/a2/part_cstudent@csc347-a2:~/group_0191/a2/part_c$ ./ihazroot
+Sub shell: w id -u
+1001
+Sub shell: exit
+Ending sub session . . . 
+]0;student@csc347-a2: ~/group_0191/a2/part_cstudent@csc347-a2:~/group_0191/a2/part_c$ sudo ./insert.sh
+[sudo] password for student: 
+]0;student@csc347-a2: ~/group_0191/a2/part_cstudent@csc347-a2:~/group_0191/a2/part_c$ ./ihazroot
+Sub shell: id -u
+0
+Sub shell: exit
+Ending sub session . . . 
+]0;student@csc347-a2: ~/group_0191/a2/part_cstudent@csc347-a2:~/group_0191/a2/part_c$ exit
+exit
+
+Script done on Sat 26 Oct 2019 10:12:17 PM EDT
