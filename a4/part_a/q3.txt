@@ -1,0 +1,20 @@
+#!/bin/bash
+echo "q3.txt tcpdump output below" >> q3.txt; 
+echo "---------------------------" >> q3.txt;
+sudo tcpdump -i any host localhost and port 10093 >> q3.txt;
+# In a second shell run: sudo netcat localhost 10093 < input.txt
+
+q3.txt tcpdump output below
+---------------------------
+22:24:44.965309 IP localhost.43951 > localhost.10093: Flags [S], seq 1816360453, win 32792, options [mss 16396,sackOK,TS val 4882255 ecr 0,nop,wscale 3], length 0
+22:24:44.966534 IP localhost.10093 > localhost.43951: Flags [S.], seq 4291437, ack 1816360454, win 32768, options [mss 16396,sackOK,TS val 4882256 ecr 4882255,nop,wscale 3], length 0
+22:24:44.967246 IP localhost.43951 > localhost.10093: Flags [.], ack 1, win 4099, options [nop,nop,TS val 4882256 ecr 4882256], length 0
+22:24:44.974815 IP localhost.43951 > localhost.10093: Flags [P.], seq 1:13, ack 1, win 4099, options [nop,nop,TS val 4882258 ecr 4882256], length 12
+22:24:45.013559 IP localhost.10093 > localhost.43951: Flags [.], ack 14, win 4096, options [nop,nop,TS val 4882268 ecr 4882258], length 0
+22:24:45.016541 IP localhost.10093 > localhost.43951: Flags [P.], seq 1:32, ack 14, win 4096, options [nop,nop,TS val 4882268 ecr 4882258], length 31
+22:24:45.017010 IP localhost.43951 > localhost.10093: Flags [.], ack 32, win 4096, options [nop,nop,TS val 4882268 ecr 4882268], length 0
+22:24:45.018472 IP localhost.10093 > localhost.43951: Flags [P.], seq 32:44, ack 14, win 4096, options [nop,nop,TS val 4882269 ecr 4882268], length 12
+22:24:45.018574 IP localhost.43951 > localhost.10093: Flags [.], ack 44, win 4096, options [nop,nop,TS val 4882269 ecr 4882269], length 0
+22:24:45.019949 IP localhost.10093 > localhost.43951: Flags [F.], seq 44, ack 14, win 4096, options [nop,nop,TS val 4882269 ecr 4882269], length 0
+22:24:45.020047 IP localhost.43951 > localhost.10093: Flags [.], ack 45, win 4096, options [nop,nop,TS val 4882269 ecr 4882269], length 0
+

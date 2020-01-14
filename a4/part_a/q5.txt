@@ -1,0 +1,32 @@
+#!/bin/bash
+sudo tcpdump -i any -x -w q5_ACK.pcap host localhost and port 10466
+# In another shell run: sudo nmap -sA -p- localhost
+echo "q5.txt ACK tcpdump output below" >> q5.txt; echo "---------------------------" >> q5.txt; echo "" >> q5.txt;
+tcpdump -x -r q5_ACK.pcap >> q5.txt # append output to this file as stated in the handout
+
+sudo tcpdump -i any -x -w q5_FIN.pcap host localhost and port 10093
+# In another shell run: sudo nmap -sF -p- localhost
+echo "q5.txt FIN tcpdump output below" >> q5.txt; echo "---------------------------" >> q5.txt; echo "" >> q5.txt;
+tcpdump -x -r q5_FIN.pcap >> q5.txt # append output to this file as stated in the handout
+q5.txt ACK tcpdump output below
+---------------------------
+
+16:59:10.974590 IP localhost.34103 > localhost.10466: Flags [.], ack 15328279, win 1024, length 0
+	0x0000:  4500 0028 49d0 0000 3206 40fe 7f00 0001
+	0x0010:  7f00 0001 8537 28e2 0000 0000 00e9 e417
+	0x0020:  5010 0400 1ab8 0000
+16:59:10.974623 IP localhost.10466 > localhost.34103: Flags [R], seq 15328279, win 0, length 0
+	0x0000:  4500 0028 ba1f 4000 4006 82ae 7f00 0001
+	0x0010:  7f00 0001 28e2 8537 00e9 e417 0000 0000
+	0x0020:  5004 0000 1ec4 0000
+q5.txt FIN tcpdump output below
+---------------------------
+
+16:59:21.299405 IP localhost.56538 > localhost.10093: Flags [F], seq 2458825494, win 1024, length 0
+	0x0000:  4500 0028 4119 0000 2b06 50b5 7f00 0001
+	0x0010:  7f00 0001 dcda 276d 928e b316 0000 0000
+	0x0020:  5001 0400 63f4 0000
+16:59:21.400217 IP localhost.56539 > localhost.10093: Flags [F], seq 2458891031, win 1024, length 0
+	0x0000:  4500 0028 35a3 0000 3506 522b 7f00 0001
+	0x0010:  7f00 0001 dcdb 276d 928f b317 0000 0000
+	0x0020:  5001 0400 63f1 0000

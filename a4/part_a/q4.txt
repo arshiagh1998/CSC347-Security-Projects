@@ -1,0 +1,77 @@
+#!/bin/bash
+sudo tcpdump -i any -x -w q4.pcap host localhost and port 10093
+echo "q4.txt tcpdump output below"  >> q4.txt; echo "---------------------------"  >> q4.txt;
+tcpdump -x -r q4.pcap >> q4.txt # append output to this file as stated in the handout
+echo "" >> q4.txt;
+
+q4.txt tcpdump output below
+---------------------------
+
+22:57:01.837857 IP localhost.43958 > localhost.10093: Flags [S], seq 1178901160, win 32792, options [mss 16396,sackOK,TS val 5366473 ecr 0,nop,wscale 3], length 0
+	0x0000:  4500 003c 7861 4000 4006 c458 7f00 0001
+	0x0010:  7f00 0001 abb6 276d 4644 9aa8 0000 0000
+	0x0020:  a002 8018 fe30 0000 0204 400c 0402 080a
+	0x0030:  0051 e2c9 0000 0000 0103 0303
+22:57:01.839442 IP localhost.10093 > localhost.43958: Flags [S.], seq 815689228, ack 1178901161, win 32768, options [mss 16396,sackOK,TS val 5366474 ecr 5366473,nop,wscale 3], length 0
+	0x0000:  4500 003c 0000 4000 4006 3cba 7f00 0001
+	0x0010:  7f00 0001 276d abb6 309e 6e0c 4644 9aa9
+	0x0020:  a012 8000 fe30 0000 0204 400c 0402 080a
+	0x0030:  0051 e2ca 0051 e2c9 0103 0303
+22:57:01.840509 IP localhost.43958 > localhost.10093: Flags [.], ack 1, win 4099, options [nop,nop,TS val 5366474 ecr 5366474], length 0
+	0x0000:  4500 0034 7862 4000 4006 c45f 7f00 0001
+	0x0010:  7f00 0001 abb6 276d 4644 9aa9 309e 6e0d
+	0x0020:  8010 1003 fe28 0000 0101 080a 0051 e2ca
+	0x0030:  0051 e2ca
+22:57:01.850890 IP localhost.43958 > localhost.10093: Flags [P.], seq 1:13, ack 1, win 4099, options [nop,nop,TS val 5366477 ecr 5366474], length 12
+	0x0000:  4500 0040 7863 4000 4006 c452 7f00 0001
+	0x0010:  7f00 0001 abb6 276d 4644 9aa9 309e 6e0d
+	0x0020:  8018 1003 fe34 0000 0101 080a 0051 e2cd
+	0x0030:  0051 e2ca 4865 6c6c 6f20 576f 726c 6421
+22:57:01.851539 IP localhost.10093 > localhost.43958: Flags [.], ack 13, win 4096, options [nop,nop,TS val 5366477 ecr 5366477], length 0
+	0x0000:  4500 0034 8cc7 4000 4006 affa 7f00 0001
+	0x0010:  7f00 0001 276d abb6 309e 6e0d 4644 9ab5
+	0x0020:  8010 1000 fe28 0000 0101 080a 0051 e2cd
+	0x0030:  0051 e2cd
+22:57:01.852029 IP localhost.43958 > localhost.10093: Flags [F.], seq 13, ack 1, win 4099, options [nop,nop,TS val 5366477 ecr 5366477], length 0
+	0x0000:  4500 0034 7864 4000 4006 c45d 7f00 0001
+	0x0010:  7f00 0001 abb6 276d 4644 9ab5 309e 6e0d
+	0x0020:  8011 1003 fe28 0000 0101 080a 0051 e2cd
+	0x0030:  0051 e2cd
+22:57:01.889566 IP localhost.10093 > localhost.43958: Flags [.], ack 14, win 4096, options [nop,nop,TS val 5366487 ecr 5366477], length 0
+	0x0000:  4500 0034 8cc8 4000 4006 aff9 7f00 0001
+	0x0010:  7f00 0001 276d abb6 309e 6e0d 4644 9ab6
+	0x0020:  8010 1000 fe28 0000 0101 080a 0051 e2d7
+	0x0030:  0051 e2cd
+22:57:01.892824 IP localhost.10093 > localhost.43958: Flags [P.], seq 1:32, ack 14, win 4096, options [nop,nop,TS val 5366487 ecr 5366477], length 31
+	0x0000:  4500 0053 8cc9 4000 4006 afd9 7f00 0001
+	0x0010:  7f00 0001 276d abb6 309e 6e0d 4644 9ab6
+	0x0020:  8018 1000 fe47 0000 0101 080a 0051 e2d7
+	0x0030:  0051 e2cd 2d2d 204b 656e 2053 6572 7669
+	0x0040:  6365 2044 6165 6d6f 6e2e 2076 302e 3120
+	0x0050:  2d2d 0a
+22:57:01.893274 IP localhost.43958 > localhost.10093: Flags [.], ack 32, win 4096, options [nop,nop,TS val 5366487 ecr 5366487], length 0
+	0x0000:  4500 0034 7865 4000 4006 c45c 7f00 0001
+	0x0010:  7f00 0001 abb6 276d 4644 9ab6 309e 6e2c
+	0x0020:  8010 1000 fe28 0000 0101 080a 0051 e2d7
+	0x0030:  0051 e2d7
+22:57:01.896060 IP localhost.10093 > localhost.43958: Flags [P.], seq 32:44, ack 14, win 4096, options [nop,nop,TS val 5366488 ecr 5366487], length 12
+	0x0000:  4500 0040 8cca 4000 4006 afeb 7f00 0001
+	0x0010:  7f00 0001 276d abb6 309e 6e2c 4644 9ab6
+	0x0020:  8018 1000 fe34 0000 0101 080a 0051 e2d8
+	0x0030:  0051 e2d7 4865 6c6c 6f20 576f 726c 6421
+22:57:01.896160 IP localhost.43958 > localhost.10093: Flags [.], ack 44, win 4096, options [nop,nop,TS val 5366488 ecr 5366488], length 0
+	0x0000:  4500 0034 7866 4000 4006 c45b 7f00 0001
+	0x0010:  7f00 0001 abb6 276d 4644 9ab6 309e 6e38
+	0x0020:  8010 1000 fe28 0000 0101 080a 0051 e2d8
+	0x0030:  0051 e2d8
+22:57:01.898404 IP localhost.10093 > localhost.43958: Flags [F.], seq 44, ack 14, win 4096, options [nop,nop,TS val 5366489 ecr 5366488], length 0
+	0x0000:  4500 0034 8ccb 4000 4006 aff6 7f00 0001
+	0x0010:  7f00 0001 276d abb6 309e 6e38 4644 9ab6
+	0x0020:  8011 1000 fe28 0000 0101 080a 0051 e2d9
+	0x0030:  0051 e2d8
+22:57:01.898497 IP localhost.43958 > localhost.10093: Flags [.], ack 45, win 4096, options [nop,nop,TS val 5366489 ecr 5366489], length 0
+	0x0000:  4500 0034 7867 4000 4006 c45a 7f00 0001
+	0x0010:  7f00 0001 abb6 276d 4644 9ab6 309e 6e39
+	0x0020:  8010 1000 fe28 0000 0101 080a 0051 e2d9
+	0x0030:  0051 e2d9
+

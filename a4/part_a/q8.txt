@@ -1,0 +1,12 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2019-11-24 21:01 EST
+Nmap scan report for dpr.utmfs.ads.utm.utoronto.ca (142.1.44.135)
+Host is up (0.00025s latency).
+Not shown: 65531 closed ports
+PORT      STATE SERVICE
+902/tcp   open  iss-realsecure
+2222/tcp  open  EtherNet/IP-1
+25565/tcp open  minecraft
+26000/tcp open  quake
+
+Nmap done: 1 IP address (1 host up) scanned in 5.22 seconds

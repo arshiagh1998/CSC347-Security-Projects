@@ -1,0 +1,23 @@
+Response from port: 902
+220 VMware Authentication Daemon Version 1.10: SSL Required, ServerDaemonProtocol:SOAP, MKSDisplayProtocol:VNC , VMXARGS supported, NFCSSL supported/t
+
+ ------------------------------
+Response from port: 2222
+SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8
+
+ ------------------------------
+Response from port: 25565
+
+ ------------------------------
+Response from port: 26000
+<head>
+<title>Error response</title>
+</head>
+<body>
+<h1>Error response</h1>
+<p>Error code 400.
+<p>Message: Bad HTTP/0.9 request type ('Hello').
+<p>Error code explanation: 400 = Bad request syntax or unsupported method.
+</body>
+
+ ------------------------------

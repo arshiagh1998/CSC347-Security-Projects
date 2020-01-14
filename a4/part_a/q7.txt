@@ -1,0 +1,369 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2019-11-24 16:14 EST
+Nmap scan report for _gateway (142.1.46.1)
+Host is up (0.0018s latency).
+Nmap scan report for dh2026pc01.erin.utoronto.ca (142.1.46.4)
+Host is up (0.0012s latency).
+Nmap scan report for dh2026pc02.erin.utoronto.ca (142.1.46.5)
+Host is up (0.0011s latency).
+Nmap scan report for dh2026pc03.erin.utoronto.ca (142.1.46.6)
+Host is up (0.00089s latency).
+Nmap scan report for dh2026pc04.erin.utoronto.ca (142.1.46.7)
+Host is up (0.00078s latency).
+Nmap scan report for dh2026pc05.erin.utoronto.ca (142.1.46.8)
+Host is up (0.00089s latency).
+Nmap scan report for dh2026pc07.erin.utoronto.ca (142.1.46.10)
+Host is up (0.00080s latency).
+Nmap scan report for dh2026pc08.erin.utoronto.ca (142.1.46.11)
+Host is up (0.00089s latency).
+Nmap scan report for dh2026pc11.erin.utoronto.ca (142.1.46.14)
+Host is up (0.0016s latency).
+Nmap scan report for dh2026pc12.erin.utoronto.ca (142.1.46.15)
+Host is up (0.0014s latency).
+Nmap scan report for dh2026pc13.erin.utoronto.ca (142.1.46.16)
+Host is up (0.0013s latency).
+Nmap scan report for dh2026pc14.erin.utoronto.ca (142.1.46.17)
+Host is up (0.0012s latency).
+Nmap scan report for dh2026pc15.erin.utoronto.ca (142.1.46.18)
+Host is up (0.0012s latency).
+Nmap scan report for dh2026pc17.erin.utoronto.ca (142.1.46.20)
+Host is up (0.00065s latency).
+Nmap scan report for dh2026pc18.erin.utoronto.ca (142.1.46.21)
+Host is up (0.00057s latency).
+Nmap scan report for dh2026pc19.erin.utoronto.ca (142.1.46.22)
+Host is up (0.00049s latency).
+Nmap scan report for dh2026pc20.erin.utoronto.ca (142.1.46.23)
+Host is up (0.00080s latency).
+Nmap scan report for dh2026pc21.erin.utoronto.ca (142.1.46.24)
+Host is up (0.00071s latency).
+Nmap scan report for dh2026pc22.erin.utoronto.ca (142.1.46.25)
+Host is up (0.00064s latency).
+Nmap scan report for dh2026pc23.erin.utoronto.ca (142.1.46.26)
+Host is up (0.00057s latency).
+Nmap scan report for dh2026pc24.erin.utoronto.ca (142.1.46.27)
+Host is up (0.00056s latency).
+Nmap scan report for dh2026pc26.erin.utoronto.ca (142.1.46.29)
+Host is up (0.0032s latency).
+Nmap scan report for dh2026pc27.erin.utoronto.ca (142.1.46.30)
+Host is up (0.0031s latency).
+Nmap scan report for dh2026pc28.erin.utoronto.ca (142.1.46.31)
+Host is up (0.0030s latency).
+Nmap scan report for dh2026pc29.erin.utoronto.ca (142.1.46.32)
+Host is up (0.0029s latency).
+Nmap scan report for dh2026pc30.erin.utoronto.ca (142.1.46.33)
+Host is up (0.0028s latency).
+Nmap scan report for dh2026pc00.erin.utoronto.ca (142.1.46.34)
+Host is up (0.0027s latency).
+Nmap scan report for dh2020pc01.erin.utoronto.ca (142.1.46.35)
+Host is up (0.0025s latency).
+Nmap scan report for dh2020pc02.erin.utoronto.ca (142.1.46.36)
+Host is up (0.0024s latency).
+Nmap scan report for dh2020pc03.erin.utoronto.ca (142.1.46.37)
+Host is up (0.0021s latency).
+Nmap scan report for dh2020pc04.erin.utoronto.ca (142.1.46.38)
+Host is up (0.0020s latency).
+Nmap scan report for dh2020pc05.erin.utoronto.ca (142.1.46.39)
+Host is up (0.0019s latency).
+Nmap scan report for dh2020pc06.erin.utoronto.ca (142.1.46.40)
+Host is up (0.0018s latency).
+Nmap scan report for dh2020pc07.erin.utoronto.ca (142.1.46.41)
+Host is up (0.0017s latency).
+Nmap scan report for dh2020pc08.erin.utoronto.ca (142.1.46.42)
+Host is up (0.0015s latency).
+Nmap scan report for dh2020pc09.erin.utoronto.ca (142.1.46.43)
+Host is up (0.0013s latency).
+Nmap scan report for dh2020pc10.erin.utoronto.ca (142.1.46.44)
+Host is up (0.0012s latency).
+Nmap scan report for dh2020pc11.erin.utoronto.ca (142.1.46.45)
+Host is up (0.0010s latency).
+Nmap scan report for dh2020pc12.erin.utoronto.ca (142.1.46.46)
+Host is up (0.00094s latency).
+Nmap scan report for dh2020pc13.erin.utoronto.ca (142.1.46.47)
+Host is up (0.00072s latency).
+Nmap scan report for dh2020pc14.erin.utoronto.ca (142.1.46.48)
+Host is up (0.0014s latency).
+Nmap scan report for dh2020pc15.erin.utoronto.ca (142.1.46.49)
+Host is up (0.0012s latency).
+Nmap scan report for dh2020pc16.erin.utoronto.ca (142.1.46.50)
+Host is up (0.0011s latency).
+Nmap scan report for dh2020pc17.erin.utoronto.ca (142.1.46.51)
+Host is up (0.0010s latency).
+Nmap scan report for dh2020pc18.erin.utoronto.ca (142.1.46.52)
+Host is up (0.00093s latency).
+Nmap scan report for dh2020pc19.erin.utoronto.ca (142.1.46.53)
+Host is up (0.0010s latency).
+Nmap scan report for dh2020pc20.erin.utoronto.ca (142.1.46.54)
+Host is up (0.00094s latency).
+Nmap scan report for dh2020pc21.erin.utoronto.ca (142.1.46.55)
+Host is up (0.0072s latency).
+Nmap scan report for dh2020pc22.erin.utoronto.ca (142.1.46.56)
+Host is up (0.0071s latency).
+Nmap scan report for dh2020pc23.erin.utoronto.ca (142.1.46.57)
+Host is up (0.0070s latency).
+Nmap scan report for dh2020pc24.erin.utoronto.ca (142.1.46.58)
+Host is up (0.0069s latency).
+Nmap scan report for dh2020pc25.erin.utoronto.ca (142.1.46.59)
+Host is up (0.0068s latency).
+Nmap scan report for dh2020pc26.erin.utoronto.ca (142.1.46.60)
+Host is up (0.0067s latency).
+Nmap scan report for dh2020pc27.erin.utoronto.ca (142.1.46.61)
+Host is up (0.0065s latency).
+Nmap scan report for dh2020pc28.erin.utoronto.ca (142.1.46.62)
+Host is up (0.0065s latency).
+Nmap scan report for dh2020pc29.erin.utoronto.ca (142.1.46.63)
+Host is up (0.0063s latency).
+Nmap scan report for dh2020pc30.erin.utoronto.ca (142.1.46.64)
+Host is up (0.0062s latency).
+Nmap scan report for dh2020pc00.erin.utoronto.ca (142.1.46.65)
+Host is up (0.0062s latency).
+Nmap scan report for 142.1.46.68
+Host is up (0.0056s latency).
+Nmap scan report for dh2010pc01.erin.utoronto.ca (142.1.46.70)
+Host is up (0.0054s latency).
+Nmap scan report for dh2010pc03.erin.utoronto.ca (142.1.46.72)
+Host is up (0.0052s latency).
+Nmap scan report for dh2010pc04.erin.utoronto.ca (142.1.46.73)
+Host is up (0.0052s latency).
+Nmap scan report for dh2010pc05.erin.utoronto.ca (142.1.46.74)
+Host is up (0.0049s latency).
+Nmap scan report for dh2010pc06.erin.utoronto.ca (142.1.46.75)
+Host is up (0.0048s latency).
+Nmap scan report for dh2010pc07.erin.utoronto.ca (142.1.46.76)
+Host is up (0.0047s latency).
+Nmap scan report for dh2010pc08.erin.utoronto.ca (142.1.46.77)
+Host is up (0.0046s latency).
+Nmap scan report for dh2010pc09.erin.utoronto.ca (142.1.46.78)
+Host is up (0.0045s latency).
+Nmap scan report for dh2010pc10.erin.utoronto.ca (142.1.46.79)
+Host is up (0.0043s latency).
+Nmap scan report for dh2010pc11.erin.utoronto.ca (142.1.46.80)
+Host is up (0.0042s latency).
+Nmap scan report for dh2010pc12.erin.utoronto.ca (142.1.46.81)
+Host is up (0.0041s latency).
+Nmap scan report for dh2010pc13.erin.utoronto.ca (142.1.46.82)
+Host is up (0.0039s latency).
+Nmap scan report for dh2010pc14.erin.utoronto.ca (142.1.46.83)
+Host is up (0.0038s latency).
+Nmap scan report for dh2010pc16.erin.utoronto.ca (142.1.46.85)
+Host is up (0.0035s latency).
+Nmap scan report for dh2010pc17.erin.utoronto.ca (142.1.46.86)
+Host is up (0.0035s latency).
+Nmap scan report for dh2010pc18.erin.utoronto.ca (142.1.46.87)
+Host is up (0.0032s latency).
+Nmap scan report for dh2010pc19.erin.utoronto.ca (142.1.46.88)
+Host is up (0.0031s latency).
+Nmap scan report for dh2010pc20.erin.utoronto.ca (142.1.46.89)
+Host is up (0.0030s latency).
+Nmap scan report for dh2010pc21.erin.utoronto.ca (142.1.46.90)
+Host is up (0.0029s latency).
+Nmap scan report for dh2010pc22.erin.utoronto.ca (142.1.46.91)
+Host is up (0.0028s latency).
+Nmap scan report for dh2010pc23.erin.utoronto.ca (142.1.46.92)
+Host is up (0.0026s latency).
+Nmap scan report for dh2010pc24.erin.utoronto.ca (142.1.46.93)
+Host is up (0.0025s latency).
+Nmap scan report for dh2010pc25.erin.utoronto.ca (142.1.46.94)
+Host is up (0.0023s latency).
+Nmap scan report for dh2010pc26.erin.utoronto.ca (142.1.46.95)
+Host is up (0.0022s latency).
+Nmap scan report for dh2010pc27.erin.utoronto.ca (142.1.46.96)
+Host is up (0.0020s latency).
+Nmap scan report for dh2010pc28.erin.utoronto.ca (142.1.46.97)
+Host is up (0.0020s latency).
+Nmap scan report for dh2010pc29.erin.utoronto.ca (142.1.46.98)
+Host is up (0.0018s latency).
+Nmap scan report for dh2010pc30.erin.utoronto.ca (142.1.46.99)
+Host is up (0.0025s latency).
+Nmap scan report for dh2010pc31.erin.utoronto.ca (142.1.46.100)
+Host is up (0.0023s latency).
+Nmap scan report for dh2010pc32.erin.utoronto.ca (142.1.46.101)
+Host is up (0.0022s latency).
+Nmap scan report for dh2010pc33.erin.utoronto.ca (142.1.46.102)
+Host is up (0.0021s latency).
+Nmap scan report for dh2010pc34.erin.utoronto.ca (142.1.46.103)
+Host is up (0.0026s latency).
+Nmap scan report for dh2010pc35.erin.utoronto.ca (142.1.46.104)
+Host is up (0.00072s latency).
+Nmap scan report for dh2010pc36.erin.utoronto.ca (142.1.46.105)
+Host is up (0.0068s latency).
+Nmap scan report for dh2010pc37.erin.utoronto.ca (142.1.46.106)
+Host is up (0.0067s latency).
+Nmap scan report for dh2010pc38.erin.utoronto.ca (142.1.46.107)
+Host is up (0.0066s latency).
+Nmap scan report for dh2010pc39.erin.utoronto.ca (142.1.46.108)
+Host is up (0.0065s latency).
+Nmap scan report for dh2010pc40.erin.utoronto.ca (142.1.46.109)
+Host is up (0.0065s latency).
+Nmap scan report for dh2010pc41.erin.utoronto.ca (142.1.46.110)
+Host is up (0.0064s latency).
+Nmap scan report for dh2010pc42.erin.utoronto.ca (142.1.46.111)
+Host is up (0.0063s latency).
+Nmap scan report for dh2010pc43.erin.utoronto.ca (142.1.46.112)
+Host is up (0.0061s latency).
+Nmap scan report for dh2010pc44.erin.utoronto.ca (142.1.46.113)
+Host is up (0.0060s latency).
+Nmap scan report for dh2010pc45.erin.utoronto.ca (142.1.46.114)
+Host is up (0.0058s latency).
+Nmap scan report for dh2010pc46.erin.utoronto.ca (142.1.46.115)
+Host is up (0.0056s latency).
+Nmap scan report for dh2010pc47.erin.utoronto.ca (142.1.46.116)
+Host is up (0.0055s latency).
+Nmap scan report for dh2010pc48.erin.utoronto.ca (142.1.46.117)
+Host is up (0.0052s latency).
+Nmap scan report for dh2010pc49.erin.utoronto.ca (142.1.46.118)
+Host is up (0.0052s latency).
+Nmap scan report for dh2010pc50.erin.utoronto.ca (142.1.46.119)
+Host is up (0.0051s latency).
+Nmap scan report for dh2010pc00.erin.utoronto.ca (142.1.46.120)
+Host is up (0.0035s latency).
+Nmap scan report for 142.1.46.126
+Host is up (0.0029s latency).
+Nmap scan report for radagast.erin.utoronto.ca (142.1.46.128)
+Host is up (0.0027s latency).
+Nmap scan report for 142.1.46.129
+Host is up (0.0026s latency).
+Nmap scan report for 142.1.46.130
+Host is up (0.0025s latency).
+Nmap scan report for 142.1.46.134
+Host is up (0.0022s latency).
+Nmap scan report for 142.1.46.135
+Host is up (0.0029s latency).
+Nmap scan report for 142.1.46.136
+Host is up (0.0029s latency).
+Nmap scan report for 142.1.46.137
+Host is up (0.0028s latency).
+Nmap scan report for 142.1.46.138
+Host is up (0.0027s latency).
+Nmap scan report for 142.1.46.139
+Host is up (0.0026s latency).
+Nmap scan report for 142.1.46.140
+Host is up (0.0017s latency).
+Nmap scan report for 142.1.46.141
+Host is up (0.0024s latency).
+Nmap scan report for 142.1.46.142
+Host is up (0.0024s latency).
+Nmap scan report for 142.1.46.144
+Host is up (0.0022s latency).
+Nmap scan report for 142.1.46.146
+Host is up (0.0023s latency).
+Nmap scan report for 142.1.46.147
+Host is up (0.0025s latency).
+Nmap scan report for 142.1.46.148
+Host is up (0.0022s latency).
+Nmap scan report for 142.1.46.152
+Host is up (0.0015s latency).
+Nmap scan report for 142.1.46.154
+Host is up (0.0015s latency).
+Nmap scan report for 142.1.46.155
+Host is up (0.0049s latency).
+Nmap scan report for 142.1.46.156
+Host is up (0.0021s latency).
+Nmap scan report for 142.1.46.158
+Host is up (0.0057s latency).
+Nmap scan report for 142.1.46.160
+Host is up (0.0055s latency).
+Nmap scan report for 142.1.46.161
+Host is up (0.0054s latency).
+Nmap scan report for 142.1.46.163
+Host is up (0.0053s latency).
+Nmap scan report for 142.1.46.164
+Host is up (0.0052s latency).
+Nmap scan report for 142.1.46.165
+Host is up (0.0051s latency).
+Nmap scan report for 142.1.46.166
+Host is up (0.0050s latency).
+Nmap scan report for 142.1.46.167
+Host is up (0.0049s latency).
+Nmap scan report for 142.1.46.168
+Host is up (0.0049s latency).
+Nmap scan report for 142.1.46.170
+Host is up (0.0047s latency).
+Nmap scan report for 142.1.46.172
+Host is up (0.0045s latency).
+Nmap scan report for 142.1.46.173
+Host is up (0.0045s latency).
+Nmap scan report for 142.1.46.174
+Host is up (0.0041s latency).
+Nmap scan report for 142.1.46.175
+Host is up (0.0040s latency).
+Nmap scan report for 142.1.46.176
+Host is up (0.0039s latency).
+Nmap scan report for 142.1.46.177
+Host is up (0.0038s latency).
+Nmap scan report for 142.1.46.178
+Host is up (0.0037s latency).
+Nmap scan report for 142.1.46.179
+Host is up (0.0036s latency).
+Nmap scan report for 142.1.46.180
+Host is up (0.0036s latency).
+Nmap scan report for 142.1.46.182
+Host is up (0.0033s latency).
+Nmap scan report for 142.1.46.183
+Host is up (0.0032s latency).
+Nmap scan report for 142.1.46.184
+Host is up (0.0031s latency).
+Nmap scan report for 142.1.46.185
+Host is up (0.0029s latency).
+Nmap scan report for 142.1.46.186
+Host is up (0.0027s latency).
+Nmap scan report for 142.1.46.187
+Host is up (0.0026s latency).
+Nmap scan report for 142.1.46.188
+Host is up (0.0024s latency).
+Nmap scan report for 142.1.46.191
+Host is up (0.0021s latency).
+Nmap scan report for 142.1.46.192
+Host is up (0.0020s latency).
+Nmap scan report for 142.1.46.203
+Host is up (0.0036s latency).
+Nmap scan report for 142.1.46.205
+Host is up (0.0034s latency).
+Nmap scan report for 142.1.46.211
+Host is up (0.0031s latency).
+Nmap scan report for 142.1.46.213
+Host is up (0.0029s latency).
+Nmap scan report for 142.1.46.214
+Host is up (0.0028s latency).
+Nmap scan report for 142.1.46.217
+Host is up (0.0026s latency).
+Nmap scan report for 142.1.46.218
+Host is up (0.0025s latency).
+Nmap scan report for 142.1.46.219
+Host is up (0.0024s latency).
+Nmap scan report for 142.1.46.220
+Host is up (0.0023s latency).
+Nmap scan report for 142.1.46.221
+Host is up (0.0022s latency).
+Nmap scan report for 142.1.46.222
+Host is up (0.0022s latency).
+Nmap scan report for 142.1.46.224
+Host is up (0.0020s latency).
+Nmap scan report for 142.1.46.226
+Host is up (0.0018s latency).
+Nmap scan report for 142.1.46.232
+Host is up (0.0011s latency).
+Nmap scan report for 142.1.46.233
+Host is up (0.0027s latency).
+Nmap scan report for 142.1.46.240
+Host is up (0.0059s latency).
+Nmap scan report for 142.1.46.243
+Host is up (0.0026s latency).
+Nmap scan report for 142.1.46.244
+Host is up (0.0025s latency).
+Nmap scan report for 142.1.46.245
+Host is up (0.0024s latency).
+Nmap scan report for 142.1.46.247
+Host is up (0.00079s latency).
+Nmap scan report for 142.1.46.248
+Host is up (0.0024s latency).
+Nmap scan report for 142.1.46.249
+Host is up (0.0020s latency).
+Nmap scan report for 142.1.46.251
+Host is up (0.0018s latency).
+Nmap scan report for 142.1.46.252
+Host is up (0.0017s latency).
+Nmap scan report for 142.1.46.253
+Host is up (0.0016s latency).
+Nmap scan report for 142.1.46.254
+Host is up (0.0042s latency).
+Nmap done: 256 IP addresses (183 hosts up) scanned in 1.64 seconds

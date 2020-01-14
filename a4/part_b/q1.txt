@@ -1,0 +1,21 @@
+List the active rules in the INPUT, OUTPUT, and FORWARD chains of iptables:
+
+1) Command ran: sudo iptables -L
+
+Output: 
+Chain INPUT (policy ACCEPT)
+target 	prot opt source           	destination    	 
+
+Chain FORWARD (policy ACCEPT)
+target 	prot opt source           	destination    	 
+
+Chain OUTPUT (policy ACCEPT)
+target 	prot opt source           	destination 
+
+
+2) command ran: sudo iptables -S
+
+output:
+-P INPUT ACCEPT
+-P FORWARD ACCEPT
+-P OUTPUT ACCEPT
